@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+}
+.container {
+  width: 240px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 1px 1px black;
+}
+.container > img {
+  width: inherit;
+  border-radius: 12px;
+}
+.status {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 6px;
+  border-radius: 6px;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 13px;
+}
+p {
+  margin: 8px 0;
+  line-height: 24px;
+  font-weight: 200;
+  font-size: 12px;
+}
+.date {
+  font-weight: 600;
+  font-size: 13px;
+}
+h3 {
+  margin: 6px 0;
+  font-weight: 800;
+}
+strong > img {
+  vertical-align: middle;
+  width: 24px;
+  padding-right: 10px;
+}
+strong {
+  font-size: 12px;
+}
+.attribution {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+}
